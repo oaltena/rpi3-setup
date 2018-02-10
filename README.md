@@ -1,10 +1,12 @@
 # rpi3-setup
 Raspberry Pi 3 - Extended Setup (Headless Support)
 
-Setup Environment
-WiFi: WPA2-PSK
-Setup-Host: Windows 10 x64
-SD Card: Samsung EVO Plus Micro SDHC 32GB
+##Setup Environment
+- WiFi: WPA2-PSK
+- Setup Host: Windows 10 x64
+- SD Card: Samsung EVO Plus Micro SDHC 32GB
+
+##Steps
 
 1) Download latest Raspbian Image
 (Download: https://downloads.raspberrypi.org/raspbian_latest)
@@ -23,7 +25,8 @@ SD Card: Samsung EVO Plus Micro SDHC 32GB
 
 7) Insert Content for "wpa_supplicant.conf" and save:
 ```bash
-#DE for Germany - change it to the ISO/IEC alpha2 country code for the country in which your Pi is currently operating. 
+#DE for Germany - change it to the ISO/IEC alpha2 country code for 
+#the country in which your Pi is currently operating. 
 country=DE
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
