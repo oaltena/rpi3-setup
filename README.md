@@ -1,12 +1,12 @@
 # rpi3-setup
 Raspberry Pi 3 - Extended Setup (Headless Support)
 
-##Setup Environment
+## Setup Environment
 - WiFi: WPA2-PSK
 - Setup Host: Windows 10 x64
 - SD Card: Samsung EVO Plus Micro SDHC 32GB
 
-##Steps
+## Steps
 
 1) Download latest Raspbian Image
 (Download: https://downloads.raspberrypi.org/raspbian_latest)
