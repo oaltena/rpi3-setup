@@ -22,6 +22,7 @@ SD Card: Samsung EVO Plus Micro SDHC 32GB
 6) Create a blank file, name it "wpa_supplicant.conf" and open it
 
 7) Insert Content for "wpa_supplicant.conf" and save:
+```bash
 #DE for Germany - change it to the ISO/IEC alpha2 country code for the country in which your Pi is currently operating. 
 country=DE
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
@@ -33,8 +34,9 @@ network={
     psk="WiFi-Password"
     key_mgmt=WPA-PSK
 }
-
+```
 8) Open the "config.txt"-file on the "boot"-Partition and add the following lines at the end
+```bash
 #I do not guarantee that these settings will work on your device. 
 #In case of an error, the entries should be removed completely. 
 arm_freq=1275
@@ -49,5 +51,5 @@ v3d_freq=500
 h264_freq=333
 gpu_mem=256
 dtparam=sdhost,overclock_50=80
-
+```
 9) 
